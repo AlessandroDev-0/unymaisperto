@@ -68,9 +68,6 @@ main {
     margin-bottom: 0;
 }
 
-
-
-/* Responsividade para tablets */
 @media(max-width: 1024px) {
     .sobre-apresentacao {
         height: 50vh;
@@ -90,7 +87,6 @@ main {
     }
 }
 
-/* Responsividade para tablets menores */
 @media(max-width: 768px) {
     .mobile-menu {
         display: block;
@@ -120,7 +116,6 @@ main {
     }
 }
 
-/* Responsividade para smartphones */
 @media(max-width: 600px) {
     .sobre-apresentacao {
         height: 40vh;
@@ -155,7 +150,6 @@ main {
     }
 }
 
-/* Responsividade para smartphones pequenos */
 @media(max-width: 400px) {
     .sobre-apresentacao {
         height: 35vh;
