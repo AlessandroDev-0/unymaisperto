@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles/localizacao.css">
     <title>Localização</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <h1>Uny + Perto</h1>
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="areaprofissional.html">Área do Profissional</a></li>
+                <li><a href="convenios.html">Convênios</a></li>
+                <li><a href="resultado.html">Resultados</a></li>
+                <li><a href="login.html" class="login-btn">Login/Cadastrar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+         <section class="location" aria-labelledby="location-title">
+            <div class="container">
+                <h2 id="location-title" class="section-title">Onde Estamos Agora</h2>
+                <p class="section-subtitle">Acompanhe nossa localização em tempo real e veja quando estaremos perto de você</p>
+                
+                <div class="location-content">
+                    <aside class="location-info">
+                        <article class="location-card">
+                            <h3>Localização Atual</h3>
+                            <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Praça Central - Centro, Uberlândia</p>
+                            <p><i class="fas fa-calendar-alt" aria-hidden="true"></i> 25 a 30 de Outubro de 2025</p>
+                            <p><i class="fas fa-clock" aria-hidden="true"></i> Segunda a Sexta: 8h às 17h</p>
+                            <button class="btn-primary">Ver no Mapa</button>
+                        </article>
+                        
+                        <section class="next-locations">
+                            <h4>Próximas Localizações</h4>
+                            <ul>
+                                <li>
+                                    <time class="location-date" datetime="2025-11-02/2025-11-07">02/11 - 07/11</time>
+                                    <span class="location-place">Bairro Tibery</span>
+                                </li>
+                                <li>
+                                    <time class="location-date" datetime="2025-11-09/2025-11-14">09/11 - 14/11</time>
+                                    <span class="location-place">Bairro Santa Mônica</span>
+                                </li>
+                                <li>
+                                    <time class="location-date" datetime="2025-11-16/2025-11-21">16/11 - 21/11</time>
+                                    <span class="location-place">Bairro Umuarama</span>
+                                </li>
+                            </ul>
+                        </section>
+                    </aside>
+                    
+                    <figure class="location-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1136.7707379841536!2d-48.28200548156058!3d-18.91297154832129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1758829936710!5m2!1spt-BR!2sbr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" title="Mapa da localização atual do Uny + Perto">
+                        </iframe>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+     <footer>
+        <div class="footer-content">
+            <div class="footer-sobre">
+                <h3>Uny + Perto</h3>
+                <p>Levando saúde e cuidado até quem mais precisa através do nosso hospital móvel.</p>
+            </div>
+            <nav class="footer-navegacao" aria-label="Navegação do rodapé">
+                <ul>
+                    <h3>Navegação</h3>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="#">Agendamentos</a></li>
+                </ul>
+            </nav>
+            <address class="footer-contato">
+                <h3>Contato</h3>
+                <p><i class="fa-solid fa-phone"></i> (34) XXXX-XXXX</p>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:contato@unyperto.com.br">contato@unyperto.com.br</a>
+                </p>
+                <div class="social-icons">
+                    <a href="#" title="Instagram" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" title="WhatsApp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" title="Facebook" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </address>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Uny + Perto. Todos os direitos reservados.
+        </div>
+    </footer>
+    <script src="../static/js/script.js"></script>
 </body>
 </html>
