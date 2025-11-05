@@ -35,8 +35,8 @@ main {
 
 /* Estilização dos cards */
 .servico-card {
-    flex: 1 1 calc(25% - 15px); /* Cada card ocupa 25% da largura menos o espaçamento */
-    max-width: 220px; /* Define um tamanho máximo para os cards */
+    flex: 1 1 calc(25% - 15px); 
+    max-width: 220px; 
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
