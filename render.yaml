@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: uny-mais-perto
-    env: static
-    buildCommand: ""
-    staticPublishPath: ./templates
-
