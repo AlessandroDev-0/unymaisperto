@@ -47,7 +47,6 @@ const btnLogin = document.getElementById('btn-login');
 if (btnLogin) {
     btnLogin.addEventListener('click', function(event) {
         event.preventDefault();
-        
         window.location.href = '/index.html';
     });
 }
@@ -59,6 +58,7 @@ if (btnCadastrar) {
         event.preventDefault();
         
         alert('Cadastro realizado com sucesso!');
+        
         
         window.location.href = 'login.html';
     });
