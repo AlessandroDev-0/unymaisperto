@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uny + Perto | Novidades</title>
+    <title>Uny + Perto | Minha Saúde</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,40 +22,47 @@
             </div>
             <ul class="nav-list">
                 <li><a href="/index.html">Início</a></li>
-                <li><a href="areaprofissional.html">Área do Profissional</a></li>
-                <li><a href="convenios.html">Convênios</a></li>
-                <li><a href="resultado.html">Resultados</a></li>
-                <li><a href="login.html" class="login-btn">Login/Cadastrar</a></li>
+                <li><a href="/templates/areaprofissional.html">Área do Profissional</a></li>
+                <li><a href="/templates/convenios.html">Convênios</a></li>
+                <li><a href="/templates/resultado.html">Resultados</a></li>
+                <li><a href="/templates/login.html" class="login-btn">Login/Cadastrar</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="novidades-container">
-            <h2 class="titulo-novidades">Novidades</h2>
-            <p class="descricao-novidades">Confira as últimas atualizações, eventos e benefícios da Uny + Perto.</p>
+        <section class="saude-container">
+            <h2 class="titulo-saude">Minha Saúde</h2>
 
-            <div class="novidades-lista">
-                <div class="novidade-card branco">
-                    <div class="icone"><i class="fa-solid fa-calendar-days"></i></div>
+            <div class="saude-card">
+                <div class="item">
+                    <div class="icone azul"><i class="fa-solid fa-heart-pulse"></i></div>
                     <div class="info">
-                        <h3>Eventos</h3>
-                        <p>Veja os próximos eventos que a Uny + Perto participará.</p>
+                        <h3>Batimentos cardíacos</h3>
+                        <p class="valor">76 <span>bpm</span></p>
+                    </div>
+                    <div class="grafico"><i class="fa-solid fa-chart-line"></i></div>
+                </div>
+
+                <div class="linha"></div>
+
+                <div class="item">
+                    <div class="icone azul"><i class="fa-solid fa-stethoscope"></i></div>
+                    <div class="info">
+                        <h3>Pressão arterial</h3>
+                        <p class="valor">120/80 <span>mmHg</span></p>
                     </div>
                 </div>
 
-                <div class="novidade-card vermelho">
-                    <div class="icone"><i class="fa-solid fa-tags"></i></div>
-                    <div class="info">
-                        <h3>Cupons e Descontos</h3>
-                        <p>Aproveite promoções exclusivas e descontos especiais.</p>
-                    </div>
-                </div>
+                <div class="linha"></div>
 
-                <div class="novidade-card azul">
-                    <div class="icone"><i class="fa-solid fa-newspaper"></i></div>
+                <div class="item">
+                    <div class="icone azul"><i class="fa-solid fa-person-running"></i></div>
                     <div class="info">
-                        <h3>Notícias</h3>
-                        <p>Fique por dentro das novidades sobre nossos serviços e ações sociais.</p>
+                        <h3>Nível de atividade</h3>
+                        <p class="valor">Moderado</p>
+                        <div class="barra">
+                            <div class="preenchimento" style="width: 65%;"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -70,9 +77,9 @@
             <nav class="footer-navegacao" aria-label="Navegação do rodapé">
                 <ul>
                     <h3>Navegação</h3>
-                    <li><a href="/index.html">Início</a></li>
-                    <li><a href="sobre.html">Sobre Nós</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="templates/sobre.html">Sobre Nós</a></li>
+                    <li><a href="templates/servicos.html">Serviços</a></li>
                     <li><a href="#">Agendamentos</a></li>
                 </ul>
             </nav>
@@ -96,7 +103,6 @@
             &copy; 2025 Uny + Perto. Todos os direitos reservados.
         </div>
     </footer>
-
     <script src="/src/js/script.js"></script>
 </body>
 
